@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Serif;
+}
+h1{
+  text-align: center;
+  color: white;
+  padding-top: 15%;
+}
+.rezervacija{
+  text-align: center;
+  color: white;
+  padding-bottom: 2%;
+}
+button{
+  padding: 30px 10px 30px 10px;
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: inherit;
+}
+a{
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+  text-decoration: none;
+}
+img{
+  padding-right: 1%;
+}
+button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.content{
+  background-image: url("src/assets/Slike/pozadina.jpg");
+  min-height: 100%!important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: Roboto, Serif;
+  min-width: 159px;
+}
+.izbornik{
+  margin-top: 10%;
+}
+.instagram{
+  display: flex;
+  flex-direction: column;
+}
+.poruka{
+  background-color: black;
+  width: 70%;
+  border-radius: 10px;
+  margin: 3% auto 3% auto;
+}
+.zakon{
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+@media only screen and (max-width: 200px) {
+  button {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,88 @@
+.content{
+  min-height: 100%;
+  background-color: black;
+  font-family: Roboto, Serif;
+}
+h2{
+  color: #cfe1a7;
+  text-align: center;
+}
+p{
+  color: white;
+  font-size: 20px;
+}
+.ime_artikla{
+  padding-left: 15%;
+  color: #cfe1a7;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.nazivi{
+  width: 70%;
+}
+.art-1{
+  display: flex;
+  flex-direction: row;
+  max-height: 33px;
+}
+.art-1 .cij{
+  height: 15%;
+  max-height: 33px !important;
+}
+.cijene{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  max-height: 33px;
+}
+.meni{
+  display: flex;
+  flex-direction: row;
+}
+.back-button{
+  background-color: transparent;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: none;
+  margin-left: 2%;
+  padding: 0.5%;
+}
+.back-button:hover {
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.content-header{
+  height: 10%;
+  width: 100%;
+  background-color: #070707;
+  position: relative;
+}
+.cijena_artikla{
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 205px) {
+  .ime_artikla, .cijena_artikla {
+    font-size: 8px;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+  }
+  .ime_artikla{
+    padding-left: 10%;
+  }
+  h2{
+    font-size: 15px;
+  }
+  .back-button{
+    font-size: 10px;
+  }
+
+}
+
+

@@ -1,0 +1,52 @@
+.content{
+  background-image: url("src/assets/Slike/pozadina.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: Roboto, Serif;
+}
+.izbornik{
+  display: flex;
+  flex-direction: column;
+}
+button{
+  padding: 5%;
+  margin-top: 3%;
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: black;
+  cursor: pointer;
+}
+.specijalna{
+  color: gold;
+}
+.vino{margin-bottom: 3%}
+.back-button{
+  background-color: transparent;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: none;
+  margin-left: 2%;
+  padding: 0.5%;
+}
+.back-button:hover {
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.content-header{
+  height: 10%;
+  width: 100%;
+  background-color: #070707;
+  position: relative;
+}
